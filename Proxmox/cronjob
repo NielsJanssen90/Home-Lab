@@ -1,8 +1,8 @@
 # Short test weekly at 00:00 on Sunday
-0 0 * * 0 /usr/local/bin/smart-test.sh short
+0 0 * * 0 /home/smart-test.sh short
 
 # Long test monthly at 00:00 on the 1st of the month
-0 0 1 * * /usr/local/bin/smart-test.sh long
+0 0 1 * * /home/smart-test.sh long
 
 # Send the results via email at 12:00 daily (will send logs if the tests ran)
-0 12 * * * /usr/local/bin/smart-test.sh
+0 12 * * * /home/smart-test.sh
